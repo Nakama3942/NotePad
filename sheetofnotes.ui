@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SheetOfNotes</class>
+ <widget class="QMainWindow" name="SheetOfNotes">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>NotePad</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="icons.qrc">
+    <normaloff>:/title/icons/NotePad.png</normaloff>:/title/icons/NotePad.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_7">
+    <item row="0" column="0">
+     <widget class="QGroupBox" name="fontgroup">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>250</width>
+        <height>60</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="title">
+       <string>Шрифт</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="0" column="0">
+        <widget class="QFontComboBox" name="fontComboBox">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Шрифт текста&lt;/p&gt;&lt;p&gt;Влияет на весь текст без исключения. Шрифт можно выбрать только один.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="editable">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QGroupBox" name="sizegroup">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>60</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="title">
+       <string>Размер</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="0">
+        <widget class="QComboBox" name="fontsize">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Размер текста&lt;/p&gt;&lt;p&gt;Стандарт - 20&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="editable">
+          <bool>false</bool>
+         </property>
+         <item>
+          <property name="text">
+           <string>6</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>8</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>10</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>12</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>14</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>16</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>18</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>20</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>22</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>24</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>26</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>28</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>30</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>32</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>34</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>36</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>38</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>40</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QGroupBox" name="formatgroup">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>350</width>
+        <height>60</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="title">
+       <string>Формат</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QCheckBox" name="bold">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>70</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Жирный формат текста&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="text">
+          <string>Жирный</string>
+         </property>
+         <property name="icon">
+          <iconset resource="icons.qrc">
+           <normaloff>:/font/mark/icons/FontBold.png</normaloff>:/font/mark/icons/FontBold.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QCheckBox" name="italicfont">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>70</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Курсивный формат текста&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="text">
+          <string>Курсив</string>
+         </property>
+         <property name="icon">
+          <iconset resource="icons.qrc">
+           <normaloff>:/font/mark/icons/FontItalic.png</normaloff>:/font/mark/icons/FontItalic.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QCheckBox" name="underline">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>70</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Подчёркнутый формат текста&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="text">
+          <string>Подчёркнутый</string>
+         </property>
+         <property name="icon">
+          <iconset resource="icons.qrc">
+           <normaloff>:/font/mark/icons/FontUnderline.png</normaloff>:/font/mark/icons/FontUnderline.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="3">
+        <widget class="QToolButton" name="clearformat">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>25</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Очистить формитирование&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="text">
+          <string>Очистить формат</string>
+         </property>
+         <property name="icon">
+          <iconset resource="icons.qrc">
+           <normaloff>:/font/mark/icons/FontStandartMark.png</normaloff>:/font/mark/icons/FontStandartMark.png</iconset>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QGroupBox" name="paragraphgroup">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>60</height>
+       </size>
+      </property>
+      <property name="title">
+       <string>Выравнивание</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_6">
+       <item row="0" column="4">
+        <widget class="QToolButton" name="alignJ">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>25</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Выравнивание по ширине&lt;/p&gt;&lt;p&gt;(Здесь отображения нет, но при формате в другие файлы (.doc, .odt, .pdf) - форматирование остаётся и отображается)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="icons.qrc">
+           <normaloff>:/font/align/icons/AlignJustify.png</normaloff>:/font/align/icons/AlignJustify.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="3">
+        <widget class="QToolButton" name="alignR">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>25</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Выравнивание по правой стороне&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="icons.qrc">
+           <normaloff>:/font/align/icons/AlignRight.png</normaloff>:/font/align/icons/AlignRight.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QToolButton" name="alignC">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>25</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Выравнивание по центру&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="icons.qrc">
+           <normaloff>:/font/align/icons/AlignCentral.png</normaloff>:/font/align/icons/AlignCentral.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QToolButton" name="alignL">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>25</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Выравнивание по левой стороне&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="icons.qrc">
+           <normaloff>:/font/align/icons/AlignLeft.png</normaloff>:/font/align/icons/AlignLeft.png</iconset>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="4">
+     <widget class="QGroupBox" name="tablegroup">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>60</height>
+       </size>
+      </property>
+      <property name="title">
+       <string>Таблица</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_5">
+       <item row="0" column="0">
+        <widget class="QSpinBox" name="spinrow">
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Количество строк&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QSpinBox" name="spincolumn">
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Количество столбцов&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QToolButton" name="buttaccept">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>25</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="icons.qrc">
+           <normaloff>:/font/table/icons/pastetable.png</normaloff>:/font/table/icons/pastetable.png</iconset>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="5">
+     <widget class="QGroupBox" name="imagegroup">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>50</width>
+        <height>60</height>
+       </size>
+      </property>
+      <property name="title">
+       <string>Картинка</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <widget class="QToolButton" name="buttloadimage">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>220</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="icons.qrc">
+           <normaloff>:/font/image/icons/pasteimage.png</normaloff>:/font/image/icons/pasteimage.png</iconset>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="6">
+     <widget class="QTextEdit" name="winNote">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>1260</width>
+        <height>580</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="file">
+    <property name="title">
+     <string>Файл</string>
+    </property>
+    <property name="icon">
+     <iconset resource="icons.qrc">
+      <normaloff>:/file/icons/file.png</normaloff>:/file/icons/file.png</iconset>
+    </property>
+    <addaction name="actCreate"/>
+    <addaction name="actOpen"/>
+    <addaction name="separator"/>
+    <addaction name="actSaveText"/>
+    <addaction name="actSaveHTML"/>
+    <addaction name="separator"/>
+    <addaction name="actSaveTextClose"/>
+    <addaction name="actSaveHTMLClose"/>
+    <addaction name="actCloseNoSave"/>
+    <addaction name="separator"/>
+    <addaction name="actRemove"/>
+    <addaction name="actRemOther"/>
+    <addaction name="separator"/>
+    <addaction name="actExp"/>
+    <addaction name="separator"/>
+    <addaction name="actCloseProg"/>
+   </widget>
+   <widget class="QMenu" name="doc">
+    <property name="tearOffEnabled">
+     <bool>false</bool>
+    </property>
+    <property name="title">
+     <string>Справка</string>
+    </property>
+    <property name="icon">
+     <iconset resource="icons.qrc">
+      <normaloff>:/info/icons/documentation.png</normaloff>:/info/icons/documentation.png</iconset>
+    </property>
+    <property name="separatorsCollapsible">
+     <bool>false</bool>
+    </property>
+    <property name="toolTipsVisible">
+     <bool>false</bool>
+    </property>
+    <addaction name="aboutProg"/>
+    <addaction name="aboutQt"/>
+   </widget>
+   <widget class="QMenu" name="language">
+    <property name="title">
+     <string>Язык</string>
+    </property>
+    <property name="icon">
+     <iconset resource="icons.qrc">
+      <normaloff>:/language/icons/language.png</normaloff>:/language/icons/language.png</iconset>
+    </property>
+    <addaction name="actRus"/>
+    <addaction name="actEng"/>
+   </widget>
+   <widget class="QMenu" name="generate">
+    <property name="title">
+     <string>Генератор</string>
+    </property>
+    <property name="icon">
+     <iconset resource="icons.qrc">
+      <normaloff>:/generate/icons/export.png</normaloff>:/generate/icons/export.png</iconset>
+    </property>
+    <addaction name="gen_doc"/>
+    <addaction name="gen_odt"/>
+    <addaction name="gen_pdf"/>
+   </widget>
+   <widget class="QMenu" name="edit">
+    <property name="title">
+     <string>Правка</string>
+    </property>
+    <property name="icon">
+     <iconset resource="icons.qrc">
+      <normaloff>:/edit/icons/edit.png</normaloff>:/edit/icons/edit.png</iconset>
+    </property>
+    <addaction name="actUndo"/>
+    <addaction name="actRedo"/>
+    <addaction name="separator"/>
+    <addaction name="actCut"/>
+    <addaction name="actCopy"/>
+    <addaction name="actPaste"/>
+    <addaction name="separator"/>
+    <addaction name="actClear"/>
+    <addaction name="separator"/>
+    <addaction name="timedate"/>
+   </widget>
+   <widget class="QMenu" name="importFile">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="title">
+     <string>Импорт</string>
+    </property>
+    <property name="icon">
+     <iconset resource="icons.qrc">
+      <normaloff>:/import/icons/import.png</normaloff>:/import/icons/import.png</iconset>
+    </property>
+   </widget>
+   <addaction name="file"/>
+   <addaction name="importFile"/>
+   <addaction name="generate"/>
+   <addaction name="edit"/>
+   <addaction name="language"/>
+   <addaction name="doc"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actOpen">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/file/icons/open.png</normaloff>:/file/icons/open.png</iconset>
+   </property>
+   <property name="text">
+    <string>Открыть</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actSaveText">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/file/icons/savetext.png</normaloff>:/file/icons/savetext.png</iconset>
+   </property>
+   <property name="text">
+    <string>Сохранить текст</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Alt+S</string>
+   </property>
+  </action>
+  <action name="actCloseProg">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/file/icons/close.png</normaloff>:/file/icons/close.png</iconset>
+   </property>
+   <property name="text">
+    <string>Выход</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="actCreate">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/file/icons/create.png</normaloff>:/file/icons/create.png</iconset>
+   </property>
+   <property name="text">
+    <string>Создать</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="actSaveTextClose">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/file/icons/saveclose.png</normaloff>:/file/icons/saveclose.png</iconset>
+   </property>
+   <property name="text">
+    <string>Закрыть, сохраняя текст</string>
+   </property>
+   <property name="toolTip">
+    <string>Закрыть сохраняя</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Alt+Shift+S</string>
+   </property>
+  </action>
+  <action name="actCloseNoSave">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/file/icons/nosave.png</normaloff>:/file/icons/nosave.png</iconset>
+   </property>
+   <property name="text">
+    <string>Закрыть не сохраняя</string>
+   </property>
+   <property name="toolTip">
+    <string>Закрыть не сохраняя</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+Q</string>
+   </property>
+  </action>
+  <action name="aboutProg">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/info/icons/aboutProg.png</normaloff>:/info/icons/aboutProg.png</iconset>
+   </property>
+   <property name="text">
+    <string>О программе</string>
+   </property>
+  </action>
+  <action name="aboutQt">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/info/icons/aboutQt.png</normaloff>:/info/icons/aboutQt.png</iconset>
+   </property>
+   <property name="text">
+    <string>О Qt</string>
+   </property>
+  </action>
+  <action name="actRus">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/language/icons/langRus.png</normaloff>:/language/icons/langRus.png</iconset>
+   </property>
+   <property name="text">
+    <string>Русский</string>
+   </property>
+  </action>
+  <action name="actEng">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/language/icons/langEng.png</normaloff>:/language/icons/langEng.png</iconset>
+   </property>
+   <property name="text">
+    <string>Английский</string>
+   </property>
+  </action>
+  <action name="actRemove">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/file/icons/delFile.png</normaloff>:/file/icons/delFile.png</iconset>
+   </property>
+   <property name="text">
+    <string>Удалить текущую заметку</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+W</string>
+   </property>
+  </action>
+  <action name="actRemOther">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/file/icons/delFileS.png</normaloff>:/file/icons/delFileS.png</iconset>
+   </property>
+   <property name="text">
+    <string>Удалить заметки</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+W</string>
+   </property>
+  </action>
+  <action name="timedate">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/edit/icons/timedate.png</normaloff>:/edit/icons/timedate.png</iconset>
+   </property>
+   <property name="text">
+    <string>Время и дата</string>
+   </property>
+   <property name="shortcut">
+    <string>F5</string>
+   </property>
+  </action>
+  <action name="actUndo">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/edit/icons/undo.png</normaloff>:/edit/icons/undo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Отменить</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Z</string>
+   </property>
+  </action>
+  <action name="actCut">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/edit/icons/cut.png</normaloff>:/edit/icons/cut.png</iconset>
+   </property>
+   <property name="text">
+    <string>Вырезать</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+X</string>
+   </property>
+  </action>
+  <action name="actCopy">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/edit/icons/copy.png</normaloff>:/edit/icons/copy.png</iconset>
+   </property>
+   <property name="text">
+    <string>Копировать</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
+   </property>
+  </action>
+  <action name="actPaste">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/edit/icons/pasteText.png</normaloff>:/edit/icons/pasteText.png</iconset>
+   </property>
+   <property name="text">
+    <string>Вставить</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+V</string>
+   </property>
+  </action>
+  <action name="actRedo">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/edit/icons/redo.png</normaloff>:/edit/icons/redo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Вернуть</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+Z</string>
+   </property>
+  </action>
+  <action name="actClear">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/edit/icons/clear.png</normaloff>:/edit/icons/clear.png</iconset>
+   </property>
+   <property name="text">
+    <string>Очистить</string>
+   </property>
+   <property name="shortcut">
+    <string>Del</string>
+   </property>
+  </action>
+  <action name="gen_doc">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/generate/icons/gendoc.png</normaloff>:/generate/icons/gendoc.png</iconset>
+   </property>
+   <property name="text">
+    <string>Сгенерировать .doc</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+D</string>
+   </property>
+  </action>
+  <action name="gen_odt">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/generate/icons/genodt.png</normaloff>:/generate/icons/genodt.png</iconset>
+   </property>
+   <property name="text">
+    <string>Сгенерировать .odt</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+O</string>
+   </property>
+  </action>
+  <action name="gen_pdf">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/generate/icons/genpdf.png</normaloff>:/generate/icons/genpdf.png</iconset>
+   </property>
+   <property name="text">
+    <string>Сгенерировать .pdf</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+P</string>
+   </property>
+  </action>
+  <action name="actSaveHTML">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/file/icons/savehtml.png</normaloff>:/file/icons/savehtml.png</iconset>
+   </property>
+   <property name="text">
+    <string>Сохранить в HTML</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actSaveHTMLClose">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/file/icons/saveclose.png</normaloff>:/file/icons/saveclose.png</iconset>
+   </property>
+   <property name="text">
+    <string>Закрыть, сохраняя в HTML</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+S</string>
+   </property>
+  </action>
+  <action name="actExp">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/file/icons/openexplorer.png</normaloff>:/file/icons/openexplorer.png</iconset>
+   </property>
+   <property name="text">
+    <string>Показать в файловом менеджере</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+E</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

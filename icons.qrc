@@ -1,0 +1,65 @@
+<RCC>
+    <qresource prefix="/file">
+        <file>icons/savehtml.png</file>
+        <file>icons/savetext.png</file>
+        <file>icons/create.png</file>
+        <file>icons/delFile.png</file>
+        <file>icons/delFileS.png</file>
+        <file>icons/open.png</file>
+        <file>icons/file.png</file>
+        <file>icons/close.png</file>
+        <file>icons/saveclose.png</file>
+        <file>icons/nosave.png</file>
+        <file>icons/openexplorer.png</file>
+    </qresource>
+    <qresource prefix="/generate">
+        <file>icons/gendoc.png</file>
+        <file>icons/genpdf.png</file>
+        <file>icons/export.png</file>
+        <file>icons/genodt.png</file>
+    </qresource>
+    <qresource prefix="/edit">
+        <file>icons/clear.png</file>
+        <file>icons/copy.png</file>
+        <file>icons/cut.png</file>
+        <file>icons/edit.png</file>
+        <file>icons/pasteText.png</file>
+        <file>icons/redo.png</file>
+        <file>icons/timedate.png</file>
+        <file>icons/undo.png</file>
+    </qresource>
+    <qresource prefix="/language">
+        <file>icons/langEng.png</file>
+        <file>icons/langRus.png</file>
+        <file>icons/language.png</file>
+    </qresource>
+    <qresource prefix="/info">
+        <file>icons/aboutProg.png</file>
+        <file>icons/aboutQt.png</file>
+        <file>icons/documentation.png</file>
+    </qresource>
+    <qresource prefix="/font/table">
+        <file>icons/pastetable.png</file>
+    </qresource>
+    <qresource prefix="/font/image">
+        <file>icons/pasteimage.png</file>
+    </qresource>
+    <qresource prefix="/font/align">
+        <file>icons/AlignCentral.png</file>
+        <file>icons/AlignJustify.png</file>
+        <file>icons/AlignLeft.png</file>
+        <file>icons/AlignRight.png</file>
+    </qresource>
+    <qresource prefix="/font/mark">
+        <file>icons/FontBold.png</file>
+        <file>icons/FontItalic.png</file>
+        <file>icons/FontUnderline.png</file>
+        <file>icons/FontStandartMark.png</file>
+    </qresource>
+    <qresource prefix="/import">
+        <file>icons/import.png</file>
+    </qresource>
+    <qresource prefix="/title">
+        <file>icons/NotePad.png</file>
+    </qresource>
+</RCC>
