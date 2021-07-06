@@ -20,28 +20,28 @@
 <!-- ########################################################################## -->
 
 <!DOCTYPE TS>
-<TS version="2.1" language="en_US">
+<TS version="2.1" language="ja_JP">
 <context>
     <name>SheetOfNotes</name>
     <message>
         <location filename="sheetofnotes.ui" line="1829"/>
         <source>Файл</source>
-        <translation>File</translation>
+        <translation>ファイル</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="77"/>
         <source>Шрифт</source>
-        <translation>Font</translation>
+        <translation>フォント</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1743"/>
         <source>Справка</source>
-        <translation>Reference</translation>
+        <translation>参照</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1762"/>
         <source>Язык</source>
-        <translation>Language</translation>
+        <translation>言語</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1874"/>
@@ -51,12 +51,12 @@
     <message>
         <location filename="sheetofnotes.ui" line="1886"/>
         <source>Сохранить</source>
-        <translation>Save</translation>
+        <translation>セーブ</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1913"/>
         <source>Создать текстовый файл</source>
-        <translation>Create text file</translation>
+        <translation>テキストファイルを作成する</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="2156"/>
@@ -66,86 +66,86 @@
     <message>
         <location filename="sheetofnotes.ui" line="1901"/>
         <source>Выход</source>
-        <translation>Exit</translation>
+        <translation>出口</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Шрифт текста&lt;/p&gt;&lt;p&gt;Влияет на весь текст без исключения. Шрифт можно выбрать только один.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Text font&lt;/p&gt;&lt;p&gt;Affects all text without exception. You can only choose one font.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Шрифт текста&lt;/p&gt;&lt;p&gt;Влияет на весь текст без исключения. Шрифт можно выбрать только один.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="141"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Размер текста&lt;/p&gt;&lt;p&gt;Стандарт - 20&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Text Size&lt;/p&gt;&lt;p&gt;Standard - 20&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;テキストサイズ&lt;/p&gt;&lt;p&gt;標準 - 20&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="292"/>
         <source>Формат</source>
-        <translation>Formatting</translation>
+        <translation>形式</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="311"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Жирный формат текста&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Bold text&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;太字のテキスト形式&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="314"/>
         <source>Жирный</source>
-        <translation>Bold</translation>
+        <translation>太字</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="331"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Курсивный формат текста&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Italic text&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;イタリックテキスト形式&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="334"/>
         <source>Курсив</source>
-        <translation>Italic</translation>
+        <translation>イタリック</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="351"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Подчёркнутый формат текста&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Underline text&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;下線付きのテキスト形式&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="354"/>
         <source>Подчёркнутый</source>
-        <translation>Underline</translation>
+        <translation>下線付きの</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="238"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Выравнивание по правой стороне&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Right alignment&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;右揃え&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="212"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Выравнивание по центру&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Center alignment&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;センター揃え&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="186"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Выравнивание по левой стороне&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Left alignment&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;左揃え&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1065"/>
         <source>Таблица</source>
-        <translation>Table</translation>
+        <translation>テーブル</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1084"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Количество строк&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Rows&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;行数&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1097"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Количество столбцов&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Columns&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;列の数&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1796"/>
         <source>Правка</source>
-        <translation>Edit</translation>
+        <translation>編集</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1889"/>
@@ -165,12 +165,12 @@
     <message>
         <location filename="sheetofnotes.ui" line="1928"/>
         <source>Закрыть, сохраняя текст</source>
-        <translation>Close &amp; Save text</translation>
+        <translation>テキストを保持しながら閉じる</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1931"/>
         <source>Закрыть сохраняя</source>
-        <translation>Close saving</translation>
+        <translation>保存を閉じる</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1934"/>
@@ -181,18 +181,18 @@
         <location filename="sheetofnotes.ui" line="1976"/>
         <source>Русский (ru_RU)</source>
         <oldsource>Русский (Россия)</oldsource>
-        <translation>Russian (ru_RU)</translation>
+        <translation>ロシア語 (ru_RU)</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1985"/>
         <source>Английский (en_US)</source>
         <oldsource>Английский (США)</oldsource>
-        <translation>English (en_US)</translation>
+        <translation>英語 (en_US)</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1994"/>
         <source>Удалить текущую заметку</source>
-        <translation>Delete current note</translation>
+        <translation>現在のメモを削除する</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1997"/>
@@ -202,7 +202,7 @@
     <message>
         <location filename="sheetofnotes.ui" line="2006"/>
         <source>Удалить заметки</source>
-        <translation>Delete notes</translation>
+        <translation>メモを削除する</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="2009"/>
@@ -217,7 +217,7 @@
     <message>
         <location filename="sheetofnotes.ui" line="2033"/>
         <source>Отменить</source>
-        <translation>Cancel</translation>
+        <translation>元に戻す</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="2036"/>
@@ -227,7 +227,7 @@
     <message>
         <location filename="sheetofnotes.ui" line="2045"/>
         <source>Вырезать</source>
-        <translation>Cut</translation>
+        <translation>切る</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="2048"/>
@@ -237,7 +237,7 @@
     <message>
         <location filename="sheetofnotes.ui" line="2057"/>
         <source>Копировать</source>
-        <translation>Copy</translation>
+        <translation>コピー</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="2060"/>
@@ -247,7 +247,7 @@
     <message>
         <location filename="sheetofnotes.ui" line="2069"/>
         <source>Вставить</source>
-        <translation>Paste</translation>
+        <translation>挿入</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="2072"/>
@@ -257,7 +257,7 @@
     <message>
         <location filename="sheetofnotes.ui" line="2081"/>
         <source>Вернуть</source>
-        <translation>Undo</translation>
+        <translation>戻る</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="2084"/>
@@ -267,7 +267,7 @@
     <message>
         <location filename="sheetofnotes.ui" line="2093"/>
         <source>Очистить</source>
-        <translation>Clear</translation>
+        <translation>晴れ</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="2096"/>
@@ -277,12 +277,12 @@
     <message>
         <location filename="sheetofnotes.ui" line="2105"/>
         <source>Сгенерировать .doc</source>
-        <translation>Generate .doc</translation>
+        <translation>生成 .doc</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="2117"/>
         <source>Сгенерировать .odt</source>
-        <translation>Generate .odt</translation>
+        <translation>生成 .odt</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="2120"/>
@@ -297,18 +297,18 @@
     <message>
         <location filename="sheetofnotes.ui" line="2189"/>
         <source>Добавить текстовый файл</source>
-        <translation>Add text file</translation>
+        <translation>テキストファイルを追加する</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="2258"/>
         <source>Выделить всё</source>
-        <translation>Select all</translation>
+        <translation>全て選択</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="2270"/>
         <location filename="sheetofnotes.cpp" line="179"/>
         <source>Открыть код</source>
-        <translation>Open the code</translation>
+        <translation>コードを開く</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="2273"/>
@@ -318,12 +318,12 @@
     <message>
         <location filename="sheetofnotes.ui" line="2129"/>
         <source>Сгенерировать .pdf</source>
-        <translation>Generate .pdf</translation>
+        <translation>生成 .pdf</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="2141"/>
         <source>Сохранить в HTML</source>
-        <translation>Save in HTML</translation>
+        <translation>HTMLに保存</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="2144"/>
@@ -333,12 +333,12 @@
     <message>
         <location filename="sheetofnotes.ui" line="2153"/>
         <source>Закрыть, сохраняя в HTML</source>
-        <translation>Close &amp; Save HTML</translation>
+        <translation>HTMLで保存しながら閉じる</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="2165"/>
         <source>Показать в файловом менеджере</source>
-        <translation>Show in file manager</translation>
+        <translation>ファイルマネージャーに表示</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="2168"/>
@@ -348,7 +348,7 @@
     <message>
         <location filename="sheetofnotes.ui" line="2177"/>
         <source>Вставить картинки</source>
-        <translation>Insert pictures</translation>
+        <translation>写真を挿入</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="2180"/>
@@ -364,12 +364,12 @@
     <message>
         <location filename="sheetofnotes.ui" line="2201"/>
         <source>Исходники</source>
-        <translation>Source codes</translation>
+        <translation>ソースコード</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="2210"/>
         <source>Заархивировать</source>
-        <translation>Zip</translation>
+        <translation>ジップ</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="2213"/>
@@ -379,7 +379,7 @@
     <message>
         <location filename="sheetofnotes.ui" line="2222"/>
         <source>Вывести бинарный код</source>
-        <translation>Show binary code</translation>
+        <translation>バイナリコードを出力する</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="2225"/>
@@ -390,7 +390,7 @@
         <location filename="sheetofnotes.ui" line="2234"/>
         <location filename="sheetofnotes.cpp" line="201"/>
         <source>Открыть бинарный файл</source>
-        <translation>Open binary code</translation>
+        <translation>バイナリファイルを開く</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="2237"/>
@@ -400,7 +400,7 @@
     <message>
         <location filename="sheetofnotes.ui" line="2246"/>
         <source>Показать файловую директорию</source>
-        <translation>Show file directory</translation>
+        <translation>ファイルディレクトリを表示</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="2249"/>
@@ -411,576 +411,576 @@
         <location filename="sheetofnotes.ui" line="1943"/>
         <location filename="sheetofnotes.ui" line="1946"/>
         <source>Закрыть не сохраняя</source>
-        <translation>Close without saving</translation>
+        <translation>保存せずに閉じる</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="20"/>
         <location filename="sheetofnotes.cpp" line="1490"/>
         <source>Блокнот</source>
-        <translation>Notebook</translation>
+        <translation>ノート</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="83"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Шрифт&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Font&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;フォント&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="105"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Шрифт текста&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Text font&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;テキストフォント&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="122"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Размер шрифта&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Size font&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;フォントサイズ&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="167"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Выравнивание&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Alignment&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;揃え&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="189"/>
         <source>Выравнивание по левой стороне</source>
-        <translation>Left alignment</translation>
+        <translation>左揃え</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="215"/>
         <source>Выравнивание по центру</source>
-        <translation>Center align</translation>
+        <translation>センター揃え</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="241"/>
         <source>Выравнивание по правой стороне</source>
-        <translation>Right alignment</translation>
+        <translation>右揃え</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="264"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Выравнивание по ширине&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Justify alignment&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;幅に揃え&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="267"/>
         <source>Выравнивание по ширине</source>
-        <translation>Justify alignment</translation>
+        <translation>幅に揃え</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="298"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Форматирование&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Formatting&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;フォーマット&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="371"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Зачёркнутый формат текста&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Strikeout font&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;取り消し線のテキスト形式&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="374"/>
         <source>Зачёркнутый</source>
-        <translation>Strikeout</translation>
+        <translation>取り消し</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="391"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Надчёркнутый формат текста&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Overline font&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;上線付きのテキスト形式&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="394"/>
         <source>Надчёркнутый</source>
-        <translation>Overline</translation>
+        <translation>上線付きの</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="412"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Индекс&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Script&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;インデックス&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="425"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Верхний индекс&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Superscript&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;上付きインデックス&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="428"/>
         <source>Верхний индекс</source>
-        <translation>Superscript</translation>
+        <translation>上付きインデックス</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="445"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Нижний индекс&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Subscript&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;添字&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="448"/>
         <source>Нижний индекс</source>
-        <translation>Subscript</translation>
+        <translation>添字</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="466"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Цвет&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Color&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;色&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="485"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Цвет текста&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Color text&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;テキストの色&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="488"/>
         <source>Цвет текста</source>
-        <translation>Color text</translation>
+        <translation>テキストの色</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="511"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Цвет фона&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Color background&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;背景色&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="514"/>
         <source>Цвет фона</source>
-        <translation>Color background</translation>
+        <translation>背景色</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="532"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Список&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;List&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;リスト&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="545"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Нумерованный список&lt;/p&gt;&lt;p&gt;Удаляется список вручную&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Numbered list&lt;/p&gt;&lt;p&gt;The list is deleted manually&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;番号付きリスト&lt;/p&gt;&lt;p&gt;リストは手動で削除されます&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="548"/>
         <source>Нумерованный список</source>
-        <translation>Numbered list</translation>
+        <translation>番号付きリスト</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="565"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Маркированный список&lt;/p&gt;&lt;p&gt;Удаляется список вручную&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Bulleted list&lt;/p&gt;&lt;p&gt;The list is deleted manually&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;箇条リスト&lt;/p&gt;&lt;p&gt;リストは手動で削除されます&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="568"/>
         <source>Маркированный список</source>
-        <translation>Bulleted list</translation>
+        <translation>箇条リスト</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="585"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Отметить элемент списка&lt;/p&gt;&lt;p&gt;Отмечивание действует только на маркированный список&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Mark list item&lt;/p&gt;&lt;p&gt;Marking only affects the bulleted list&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;リストアイテムをマークする&lt;/p&gt;&lt;p&gt;マーキングは箇条リストにのみ影響します&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="588"/>
         <source>Отметить элемент списка</source>
-        <translation>Mark list item</translation>
+        <translation>リストアイテムをマークする</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="605"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Убрать отмечивание&lt;/p&gt;&lt;p&gt;Отмечивание действует только на маркированный список&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Uncheck&lt;/p&gt;&lt;p&gt;Marking only affects the bulleted list&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;チェックを外すか&lt;/p&gt;&lt;p&gt;マーキングは箇条リストにのみ影響します&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="608"/>
         <source>Убрать отмечивание</source>
-        <translation>Uncheck</translation>
+        <translation>チェックを外すか</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="633"/>
         <source>Регистр</source>
-        <translation>Register</translation>
+        <translation>登録</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="639"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Регистр текста&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Register of text&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;テキスト登録&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="652"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Регистр&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Register&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;登録&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="656"/>
         <source>Пользовательский</source>
-        <translation>Custom</translation>
+        <translation>カスタム</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="661"/>
         <source>Как в предложениях.</source>
-        <translation>As in the sentences.</translation>
+        <translation>文のように。</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="666"/>
         <source>все строчные</source>
-        <translation>all lower case</translation>
+        <translation>全て小文字</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="671"/>
         <source>ВСЕ ПРОПИСНЫЕ</source>
-        <translation>ALL CAPITAL</translation>
+        <translation>全て大文字</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="676"/>
         <source>Начинать С Прописных</source>
         <oldsource>Начинать С прописных</oldsource>
-        <translation>Start With Uppercase</translation>
+        <translation>大文字で始める</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="681"/>
         <source>иЗМЕНИТЬ РЕГИСТР</source>
-        <translation>cHANGE REGISTER</translation>
+        <translation>登録の変更</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="703"/>
         <source>Абзац</source>
-        <translation>Paragraph</translation>
+        <translation>段落</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="709"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Отступы абзаца&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Paragraph indentation&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;段落のインデント&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="722"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Левый отступ&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Left indent&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;左インデント&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="735"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Верхний отступ&lt;/p&gt;&lt;p&gt;(на первый абзац не влияет)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Top padding&lt;/p&gt;&lt;p&gt;(does not affect the first paragraph)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;上インデント&lt;/p&gt;&lt;p&gt;【最初の段落には影響しません】&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="748"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Правый отступ&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Right indent&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;右インデント&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="761"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Нижний отступ&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Bottom padding&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;下インデント&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="780"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Увеличить межабзацный интервал&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Increase paragraph spacing&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;段落間隔を増やす&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="783"/>
         <source>Увеличить межабзацный интервал</source>
-        <translation>Increase paragraph spacing</translation>
+        <translation>段落間隔を増やす</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="806"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Уменьшить межабзацный интервал&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Decrease paragraph spacing&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;段落間隔を小さくする&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="809"/>
         <source>Уменьшить межабзацный интервал</source>
-        <translation>Decrease paragraph spacing</translation>
+        <translation>段落間隔を小さくする</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="826"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Отменить отступы&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Undo indentation&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;インデントを元に戻す&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="829"/>
         <source>Отменить отступы</source>
-        <translation>Undo indentation</translation>
+        <translation>インデントを元に戻す</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="847"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Отступ первой строки&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;First line indent&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;最初の行のインデント&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="860"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Указать конкретный отступ первой строки абзаца&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Specify a specific indentation of the first line of a paragraph&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;段落の最初の行の特定のインデントを指定する&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="879"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Увеличить отступ&lt;/p&gt;&lt;p&gt;Максимально - 30&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Increase indent&lt;/p&gt;&lt;p&gt;Maximum - 30&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;インデントを増やす&lt;/p&gt;&lt;p&gt;最大 - 30&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="882"/>
         <source>Увеличить отступ</source>
-        <translation>Increase indent</translation>
+        <translation>インデントを増やす</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="905"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Уменьшить отступ&lt;/p&gt;&lt;p&gt;Минимально - 0&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Decrease indent&lt;/p&gt;&lt;p&gt;Minimum - 0&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;インデントを減らす&lt;/p&gt;&lt;p&gt;最小 - 0&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="908"/>
         <source>Уменьшить отступ</source>
-        <translation>Decrease indent</translation>
+        <translation>インデントを減らす</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="933"/>
         <source>Межстрочный интервал</source>
-        <translation>Line spacing</translation>
+        <translation>行間隔</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="939"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Межстрочный интервал&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Line spacing&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;行間隔&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="958"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Указать конкретный межстрочный интервал&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Specify specific line spacing&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;特定の行間隔を指定します&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="971"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Увеличить межстрочный интервал&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Increase line spacing&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;行間隔を増やす&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="974"/>
         <source>Увеличить межстрочный интервал</source>
-        <translation>Increase line spacing</translation>
+        <translation>行間隔を増やす</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="991"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Уменьшить межстрочный интервал&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Decrease line spacing&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;行間隔を減らす&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="994"/>
         <source>Уменьшить межстрочный интервал</source>
-        <translation>Decrease line spacing</translation>
+        <translation>行間隔を減らす</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1019"/>
         <source>Поля</source>
-        <translation>Fields</translation>
+        <translation>ドキュメントフィールド</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1025"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Поля документа&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Document fields&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ドキュメントフィールド&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1044"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Устанавливает поля со всех сторон&lt;/p&gt;&lt;p&gt;В HTML не сохраняется, поэтому этот функционал используется только при экспортах в другие файлы. При следующей загрузке сбрасывается&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Sets margins on all sides&lt;/p&gt;&lt;p&gt;It is not saved in HTML, so this functionality is used only when exporting to other files. Resets on next boot&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;全ての辺にマージンを設定する&lt;/p&gt;&lt;p&gt;HTMLで保存されないため、この機能は他のファイルにエクスポートする場合にのみ使用されます。 次回の起動時にリセット&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1071"/>
         <location filename="sheetofnotes.ui" line="1116"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Создать таблицу&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Create table&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;テーブルを作成する&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1119"/>
         <source>Создать таблицу</source>
-        <translation>Create table</translation>
+        <translation>テーブルを作成する</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1137"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Объединить ячейки&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Merge cells&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;テーブルセルをマージする&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1156"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Объединить выбранные ячейки&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Merge ыelected сells&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;選択したテーブルセルを組み合わせる&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1159"/>
         <source>Объединить выбранные ячейки</source>
-        <translation>Merge ыelected сells</translation>
+        <translation>選択したテーブルセルを組み合わせる</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1177"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Разбить ячейки&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Break cells&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;テーブルセルを分割する&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1190"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Количество, на которое поделится ячейка&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The number by which the cell will be divided&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;テーブルセルが分割される量&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1203"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Разбить ячейку по горизонтали&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Split cell horizontally&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;テーブルセルを水平方向に分割する&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1206"/>
         <source>Разбить ячейку по горизонтали</source>
-        <translation>Split cell horizontally</translation>
+        <translation>テーブルセルを水平方向に分割する</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1223"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Разбить ячейку по вертикали&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Split cell vertically&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;テーブルセルを垂直に分割する&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1226"/>
         <source>Разбить ячейку по вертикали</source>
-        <translation>Split cell vertically</translation>
+        <translation>テーブルセルを垂直に分割する</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1244"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Вставить ряд&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Insert row&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;行を挿入&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1257"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Вставить столбец слева&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Insert column to the left&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;左側に列を挿入する&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1260"/>
         <source>Вставить столбец слева</source>
-        <translation>Insert column to the left</translation>
+        <translation>左側に列を挿入する</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1277"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Вставить столбец справа&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Insert column to the right&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;右側に列を挿入する&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1280"/>
         <source>Вставить столбец справа</source>
-        <translation>Insert column to the right</translation>
+        <translation>右側に列を挿入する</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1297"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Вставить строку сверху&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Insert line above&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;上に行を挿入&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1300"/>
         <source>Вставить строку сверху</source>
-        <translation>Insert line above</translation>
+        <translation>上に行を挿入</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1317"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Вставить строку снизу&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Insert line below&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;下に行を挿入&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1320"/>
         <source>Вставить строку снизу</source>
-        <translation>Insert line below</translation>
+        <translation>下に行を挿入</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1338"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Удалить ряд&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Delete row&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;行を削除する&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1351"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Удалить колонку слева&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Delete column to the left&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;左側の列を削除する&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1354"/>
         <source>Удалить колонку слева</source>
-        <translation>Delete column to the left</translation>
+        <translation>左側の列を削除する</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1371"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Удалить колонку справа&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Delete column on the right&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;右側の列を削除する&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1374"/>
         <source>Удалить колонку справа</source>
-        <translation>Delete column on the right</translation>
+        <translation>右側の列を削除する</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1391"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Удалить строку сверху&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Delete line from above&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;上から行を削除&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1394"/>
         <source>Удалить строку сверху</source>
-        <translation>Delete line from above</translation>
+        <translation>上から行を削除</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1411"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Удалить строку снизу&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Delete line from bottom&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;下から行を削除します&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1414"/>
         <source>Удалить строку снизу</source>
-        <translation>Delete line from bottom</translation>
+        <translation>下から行を削除します</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1432"/>
         <location filename="sheetofnotes.ui" line="1445"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Удалить таблицу&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Delete table&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;テーブルを削除する&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1448"/>
         <source>Удалить таблицу</source>
-        <translation>Delete table</translation>
+        <translation>テーブルを削除する</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1473"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Поиск&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Search&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;探す&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1476"/>
         <source>Поиск</source>
-        <translation>Search</translation>
+        <translation>探す</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1494"/>
         <source>Введите текст для поиска</source>
-        <translation>Enter text to search</translation>
+        <translation>検索するテキストを入力してください</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1515"/>
         <source>Вид редактора</source>
-        <translation>Editor view</translation>
+        <translation>エディタービュー</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1532"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Заметка&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The note&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ノート&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1535"/>
         <source>Заметка</source>
-        <translation>The note</translation>
+        <translation>ノート</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1561"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Документ&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Document&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;資料&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1564"/>
         <source>Документ</source>
-        <translation>Document</translation>
+        <translation>資料</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1587"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Код&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The code&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;コード&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1590"/>
         <source>Код</source>
-        <translation>The code</translation>
+        <translation>コード</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1621"/>
         <source>Вид редактора:</source>
-        <translation>Editor view:</translation>
+        <translation>エディタービュー：</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1634"/>
@@ -991,35 +991,35 @@
         <location filename="sheetofnotes.ui" line="1779"/>
         <source>Экспорт</source>
         <comment>v1.0.0.1 - &quot;Генератор&quot;</comment>
-        <translation>Export</translation>
+        <translation>書き出す</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1818"/>
         <source>Вставка</source>
-        <translation>Insert</translation>
+        <translation>インサート</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1871"/>
         <source>Открыть текстовый файл</source>
-        <translation>Open text file</translation>
+        <translation>テキストファイルを開く</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="2294"/>
         <source>Русский (ru_UA)</source>
         <oldsource>Русский (Украина)</oldsource>
-        <translation>Russian (ru_UA)</translation>
+        <translation>ロシア語 (ru_UA)</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="2303"/>
         <source>Украинский (ua_UA)</source>
         <oldsource>Украинский</oldsource>
-        <translation>Ukrainian (ua_UA)</translation>
+        <translation>ウクライナ語 (ua_UA)</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="2312"/>
         <source>Японский (jp_JP)</source>
         <oldsource>Японский</oldsource>
-        <translation>Japanese (jp_JP)</translation>
+        <translation>日本語 (jp_JP)</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1949"/>
@@ -1029,17 +1029,17 @@
     <message>
         <location filename="sheetofnotes.ui" line="1958"/>
         <source>О программе</source>
-        <translation>About programm</translation>
+        <translation>プログラムについて</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="1967"/>
         <source>О Qt</source>
-        <translation>About Qt</translation>
+        <translation>Qtについて</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="2021"/>
         <source>Вставить время и дату</source>
-        <translation>Insert time and date</translation>
+        <translation>日時を挿入</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="2108"/>
@@ -1049,7 +1049,7 @@
     <message>
         <location filename="sheetofnotes.ui" line="2282"/>
         <source>Создать код</source>
-        <translation>Create code</translation>
+        <translation>コードを生成する</translation>
     </message>
     <message>
         <location filename="sheetofnotes.ui" line="2285"/>
@@ -1059,37 +1059,37 @@
     <message>
         <location filename="sheetofnotes.cpp" line="79"/>
         <source>Создать новую заметку?</source>
-        <translation>Create a new note?</translation>
+        <translation>新しいメモを作成しますか？</translation>
     </message>
     <message>
         <location filename="sheetofnotes.cpp" line="83"/>
         <source>Создать заметку</source>
-        <translation>Create a notice</translation>
+        <translation>メモを作成する</translation>
     </message>
     <message>
         <location filename="sheetofnotes.cpp" line="84"/>
         <source>Введите название новой заметки</source>
-        <translation>Enter a title for the new note</translation>
+        <translation>新しいメモのタイトルを入力してください</translation>
     </message>
     <message>
         <location filename="sheetofnotes.cpp" line="96"/>
         <source>Создать новый код?</source>
-        <translation>Create new code?</translation>
+        <translation>新しいコードを作成しますか？</translation>
     </message>
     <message>
         <location filename="sheetofnotes.cpp" line="100"/>
         <source>Новый код</source>
-        <translation>New code</translation>
+        <translation>新しいコード</translation>
     </message>
     <message>
         <location filename="sheetofnotes.cpp" line="101"/>
         <source>Введите название нового кода</source>
-        <translation>Enter the name of the new code</translation>
+        <translation>新しいコードの名前を入力します</translation>
     </message>
     <message>
         <location filename="sheetofnotes.cpp" line="118"/>
         <source>Добавить заметку</source>
-        <translation>Add note</translation>
+        <translation>メモを追加</translation>
     </message>
     <message>
         <location filename="sheetofnotes.cpp" line="120"/>
@@ -1100,12 +1100,12 @@
     <message>
         <location filename="sheetofnotes.cpp" line="153"/>
         <source>Открыть заметку?</source>
-        <translation>Open a note?</translation>
+        <translation>メモを開きますか？</translation>
     </message>
     <message>
         <location filename="sheetofnotes.cpp" line="158"/>
         <source>Открыть заметку</source>
-        <translation>Open notice</translation>
+        <translation>メモを開く</translation>
     </message>
     <message>
         <location filename="sheetofnotes.cpp" line="181"/>
@@ -1120,44 +1120,44 @@
     <message>
         <location filename="sheetofnotes.cpp" line="249"/>
         <source>Нет файла для сохранения!</source>
-        <translation>No file to save!</translation>
+        <translation>保存するファイルがありません！</translation>
     </message>
     <message>
         <location filename="sheetofnotes.cpp" line="262"/>
         <location filename="sheetofnotes.cpp" line="1407"/>
         <location filename="sheetofnotes.cpp" line="1422"/>
         <source>Нет заметки для сохранения!</source>
-        <translation>There is no note to save!</translation>
+        <translation>保存するメモはありません！</translation>
     </message>
     <message>
         <location filename="sheetofnotes.cpp" line="291"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Удалить заметку?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Delete a note?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;メモを削除しますか？&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.cpp" line="292"/>
         <source>После этого будет удалён файл со всей информацией.</source>
-        <translation>After that, the file with all the information will be deleted.</translation>
+        <translation>その後、全ての情報を含むファイルが削除されます。</translation>
     </message>
     <message>
         <location filename="sheetofnotes.cpp" line="310"/>
         <source>Нет заметки для удаления!</source>
-        <translation>There is no note to delete!</translation>
+        <translation>削除するメモはありません！</translation>
     </message>
     <message>
         <location filename="sheetofnotes.cpp" line="321"/>
         <source>Продолжить удаление?</source>
-        <translation>Continue deleting?</translation>
+        <translation>削除を続けますか？</translation>
     </message>
     <message>
         <location filename="sheetofnotes.cpp" line="174"/>
         <source>Открыть код?</source>
-        <translation>Open the code?</translation>
+        <translation>コードを開きますか？</translation>
     </message>
     <message>
         <location filename="sheetofnotes.cpp" line="460"/>
         <source>Выберите архиватор</source>
-        <translation>Select an archiver</translation>
+        <translation>アーカイバを選択する</translation>
     </message>
     <message>
         <location filename="sheetofnotes.cpp" line="462"/>
@@ -1167,7 +1167,7 @@
     <message>
         <location filename="sheetofnotes.cpp" line="582"/>
         <source>Загрузить картинку</source>
-        <translation>Upload picture</translation>
+        <translation>写真をアップロードする</translation>
     </message>
     <message>
         <location filename="sheetofnotes.cpp" line="584"/>
@@ -1177,48 +1177,48 @@
     <message>
         <location filename="sheetofnotes.cpp" line="654"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Про программу&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;About programm&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;プログラムについて&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.cpp" line="655"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-style:italic;&quot;&gt;А я всё продолжаю работать над своими проектиками... Сначала был CommPay, потомFormWord, BDU (Blanks Documents of University), а теперь и NotePad. Этот проектявляет из себя аналог обычного блокнота, но с моим видением, каким он долженбыть... Этот проект я делал чисто ради того, чтобы научиться делать окна с файламисистемы и для увеличения своей коллекции программ.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <oldsource>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-style:italic;&quot;&gt;А я всё продолжаю работать над своими проектиками... Сначала был CommPay, потом&lt;br&gt;FormWord, BDU (Blanks Documents of University), а теперь и NotePad. Этот проект&lt;br&gt;являет из себя аналог обычного блокнота, но с моим видением, каким он должен&lt;br&gt;быть... Этот проект я делал чисто ради того, чтобы научиться делать окна с файлами&lt;br&gt;системы и для увеличения своей коллекции программ.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</oldsource>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-style:italic;&quot;&gt;And I keep working on my projects ... First there was CommPay, then FormWord, BDU (Blanks Documents of University), and now NotePad. This project is an analogue of a regular notepad, but with my vision of what it should be ... I did this project purely in order to learn how to make windows with system files and to increase my collection of programs.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-style:italic;&quot;&gt;そして、私は自分のプロジェクトに取り組み続けています...最初にCommPay、次にFormWord、BDU（Blanks Documents of University）、そして今はNotePadがありました。 このプロジェクトは通常のメモ帳に似ていますが、それがどうあるべきかという私のビジョンを持っています...私は純粋にシステムファイルでウィンドウを作成する方法を学び、プログラムのコレクションを増やすためにこのプロジェクトを行いました。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.cpp" line="676"/>
         <source>Про Qt</source>
-        <translation>About Qt</translation>
+        <translation>Qtについて</translation>
     </message>
     <message>
         <location filename="sheetofnotes.cpp" line="1240"/>
         <source>Заметка. Чем уникален: Не уникален</source>
-        <translation>The note. What is unique: Not unique</translation>
+        <translation>ノート。 ユニークな点：ユニークではない</translation>
     </message>
     <message>
         <location filename="sheetofnotes.cpp" line="1250"/>
         <source>Документ. Чем уникален: Ширина виджета равна ширине документа и отображает то, как будет выглядеть документ</source>
-        <translation>Document. Why it is unique: The widget&apos;s width is equal to the document&apos;s width and reflects how the document will look</translation>
+        <translation>資料。 ユニークな点：ユニークで幅はドキュメントの幅と等しく、ドキュメントの外観を反映しています</translation>
     </message>
     <message>
         <location filename="sheetofnotes.cpp" line="1260"/>
         <source>Код. Чем уникален: Имеет подсветку синтаксиса языка С++</source>
-        <translation>The code. What is unique: Has C ++ syntax highlighting</translation>
+        <translation>コード。 ユニークな点：C ++構文の強調表示があります</translation>
     </message>
     <message>
         <location filename="sheetofnotes.cpp" line="1347"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Если Вы &lt;span style=&quot; font-weight:600;&quot;&gt;проигнорируете&lt;/span&gt; - текущая информация будет потеряна;&lt;/p&gt;&lt;p&gt;если &lt;span style=&quot; font-weight:600;&quot;&gt;продолжите&lt;/span&gt; - сохранится в текстовом формате;&lt;/p&gt;&lt;p&gt;если &lt;span style=&quot; font-weight:600;&quot;&gt;сохраните&lt;/span&gt; - сохранится в HTML формате.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If you &lt;span style=&quot; font-weight:600;&quot;&gt;ignore&lt;/span&gt; - current information will be lost;&lt;/p&gt;&lt;p&gt;if &lt;span style=&quot; font-weight:600;&quot;&gt;continue&lt;/span&gt; - saved in text format;&lt;/p&gt;&lt;p&gt;if &lt;span style=&quot; font-weight:600;&quot;&gt;save&lt;/span&gt; - will be saved in HTML format.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;これを&lt;span style=&quot; font-weight:600;&quot;&gt;無視する&lt;/span&gt;と、現在の情報が失われます。&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;続行する&lt;/span&gt;と、テキスト形式で保存されます。&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt; 保存する&lt;/span&gt;とHTML形式で保存されます。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.cpp" line="1450"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Ошибка&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Error&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;間違い&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="sheetofnotes.cpp" line="1430"/>
         <source>Удалить файл</source>
-        <translation>Delete a file</translation>
+        <translation>ファイルを削除する</translation>
     </message>
     <message>
         <location filename="sheetofnotes.cpp" line="1432"/>
@@ -1228,7 +1228,7 @@
     <message>
         <location filename="sheetofnotes.cpp" line="1465"/>
         <source> - Блокнот</source>
-        <translation> - Notepad</translation>
+        <translation> - メモ帳</translation>
     </message>
 </context>
 </TS>
