@@ -1,3 +1,5 @@
+[![GitHub license](https://img.shields.io/github/license/Nakama3942/NotePad)](https://github.com/Nakama3942/NotePad/blob/main/LICENSE)
+
 # NotePad
 Программа для создания заметок простого и сложного форматирования
 
