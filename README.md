@@ -1,31 +1,23 @@
-[![GitHub license](https://img.shields.io/github/license/Nakama3942/NotePad)](https://github.com/Nakama3942/NotePad/blob/main/LICENSE)
+[![template](https://img.shields.io/badge/Repository-template-darkred)](https://github.com/Nakama3942/template_rep)
+[![GitHub license](https://img.shields.io/github/license/Nakama3942/NotePad?color=darkorange&style=flat-square)](https://github.com/Nakama3942/NotePad/blob/main/LICENSE)
+
+[![CHANGELOG](https://img.shields.io/badge/here-CHANGELOG-yellow)](https://github.com/Nakama3942/NotePad/blob/main/CHANGELOG.md)
+[![CONTRIBUTING](https://img.shields.io/badge/here-CONTRIBUTING-indigo)](https://github.com/Nakama3942/NotePad/blob/main/CONTRIBUTING.md)
+[![CODE_OF_CONDUCT](https://img.shields.io/badge/here-CODE_OF_CONDUCT-darkgreen)](https://github.com/Nakama3942/NotePad/blob/main/CODE_OF_CONDUCT.md)
+[![PULL_REQUEST_TEMPLATE](https://img.shields.io/badge/here-PULL_REQUEST_TEMPLATE-orange)](https://github.com/Nakama3942/NotePad/blob/main/.github/PULL_REQUEST_TEMPLATE.md)
 
 # NotePad
 ## Overview
-Программа для создания заметок простого и сложного форматирования.
+A program for creating notes with simple and complex formatting.
 
-### Предпоссылки
-Как-то одним весенним утром ко мне подошли и сказали, что есть для меня один проектик. Чтобы его сделать, мне нужно было разобраться с генерацией (или просто записыванием) .doc файлов. Тогда-то я и решил Нобисать типа свой блокнот, который может экспортировать заметки из обычного .txt-файла в документ. Изначально он ничем не должен был отличаться от стандартного блокнота в Windows, но потом я решил его доработать... Вот так получился этот проект и у меня ещё есть планы на доработку этого проекта.
+### Prerequisites
+One spring morning they approached me and said that there was one project for me. To do it, I needed to figure out how to generate (or just write) .doc files. It was then that I decided to Nobisat like my own notepad, which can export notes from a regular .txt file to a document. Initially, it was not supposed to differ in any way from the standard notebook in Windows, but then I decided to modify it... This is how this project turned out and I still have plans to finalize this project.
 
 ## Usage
-Запускаете программу, создаёте заметку и дальше можно с ней делать всё, что позволяет функционал программы. Он интуитивно понятен и с программой разберётся любой, кто хоть раз работал с MS Word, LibreOffice и т.д. Отличием данной программы от вышеприведённых является то, что в отличие от тех текстовых процессоров, моя программа является всё-таки текстовым редактором, а форматирование сохраняется в HTML формате и заметки имеют стандартный .txt формат. Однако их можно экспортировать и в стандартные .doc или .odt форматы с последующем пересохранением уже в самом текстовом процессоре.
+Launch the program, create a note and then you can do everything with it that the program's functionality allows. It is intuitive and anyone who has ever worked with MS Word, LibreOffice, etc. will understand the program. The difference between this program and the above is that, unlike those word processors, my program is still a text editor, and the formatting is saved in HTML format and the notes have a standard .txt format. However, they can be exported to standard .doc or .odt formats with subsequent resaving in the word processor itself.
 
 ## Building
-Программа написана в Qt, поэтому необходимо открывать проект через Qt и собирать программу через это IDE. После сборки размещаете неоюходимые библиотеки в той же директории, что и исполняемый файл. Программа собрана, можно использовать.
-
-<!--
-## CHANGELOG
-- [CHANGELOG](https://github.com/Nakama3942/template_rep/blob/main/CHANGELOG.md)
-
-## CONTRIBUTING
-- [CONTRIBUTING](https://github.com/Nakama3942/template_rep/blob/main/CONTRIBUTING.md)
-
-## CODE_OF_CONDUCT
-- [CODE_OF_CONDUCT](https://github.com/Nakama3942/template_rep/blob/main/CODE_OF_CONDUCT.md)
-
-## PULL_REQUEST_TEMPLATE
-- [PULL_REQUEST_TEMPLATE](https://github.com/Nakama3942/template_rep/blob/main/.github/PULL_REQUEST_TEMPLATE.md)
--->
+The program is written in Qt, so you need to open the project through Qt and build the program through this IDE. After building, place the required libraries in the same directory as the executable file. The program is assembled, you can use it.
 
 ## Authors
 <table>
