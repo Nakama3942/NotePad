@@ -1,5 +1,5 @@
 [![template](https://img.shields.io/badge/Repository-template-darkred)](https://github.com/Nakama3942/template_rep)
-[![GitHub license](https://img.shields.io/github/license/Nakama3942/NotePad?color=darkorange&style=flat-square)](https://github.com/Nakama3942/NotePad/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/Nakama3942/NotePad?color=gold&style=flat-square)](https://github.com/Nakama3942/NotePad/blob/main/LICENSE)
 
 [![CHANGELOG](https://img.shields.io/badge/here-CHANGELOG-yellow)](https://github.com/Nakama3942/NotePad/blob/main/CHANGELOG.md)
 [![CONTRIBUTING](https://img.shields.io/badge/here-CONTRIBUTING-indigo)](https://github.com/Nakama3942/NotePad/blob/main/CONTRIBUTING.md)
