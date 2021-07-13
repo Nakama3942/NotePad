@@ -1,17 +1,40 @@
 [![GitHub license](https://img.shields.io/github/license/Nakama3942/NotePad)](https://github.com/Nakama3942/NotePad/blob/main/LICENSE)
 
 # NotePad
-Программа для создания заметок простого и сложного форматирования
+## Overview
+Программа для создания заметок простого и сложного форматирования.
 
-### Вступление
+### Предпоссылки
 Как-то одним весенним утром ко мне подошли и сказали, что есть для меня один проектик. Чтобы его сделать, мне нужно было разобраться с генерацией (или просто записыванием) .doc файлов. Тогда-то я и решил Нобисать типа свой блокнот, который может экспортировать заметки из обычного .txt-файла в документ. Изначально он ничем не должен был отличаться от стандартного блокнота в Windows, но потом я решил его доработать... Вот так получился этот проект и у меня ещё есть планы на доработку этого проекта.
 
-## О программе
-Взято из релиза:
-> Программа имеет функционал создания и открытия файла, его сохранение в текстовом и HTML формате, удаление файла; работа с файловым менеджером (открытие и отображение файла в системе); экспорт в другие форматы: .doc, .odt, .pdf; поддерживается правка (отменить, восстановить, вырезать, копировать, вставить, очистить, вставить время и дату); изменение языка (русский и английский); краткое описание программы; и самое главное форматирование файла: поле для ввода текста и его форматирования (шрифт, размер, формат, выравнивание, добавление таблиц и изображений). ![Screenshot_9](https://user-images.githubusercontent.com/73797846/122767275-27913380-d2ab-11eb-9398-c1910cf4c515.png)
+## Usage
+Запускаете программу, создаёте заметку и дальше можно с ней делать всё, что позволяет функционал программы. Он интуитивно понятен и с программой разберётся любой, кто хоть раз работал с MS Word, LibreOffice и т.д. Отличием данной программы от вышеприведённых является то, что в отличие от тех текстовых процессоров, моя программа является всё-таки текстовым редактором, а форматирование сохраняется в HTML формате и заметки имеют стандартный .txt формат. Однако их можно экспортировать и в стандартные .doc или .odt форматы с последующем пересохранением уже в самом текстовом процессоре.
 
-Первое обновление программы: новая версия программы 1.1.0. Было добавленно много чего. Но больше всего я добавил возможностей по форматированию текста. Взято из тега.
-> "Обновление возможностей форматирования" посвящено (как понятно из названия) расширению функционала форматирования, однако на нём не ограничено.
-Теперь минимальный размер окна равен 1280x950 (специально для экранов соотношением 5x4 и разрешением 1280x1024 (да, у программиста пока такой монитор)). А виджет поля ввода теперь расположен не на виджете самого окна, а во фрейме (предполагался кое-какой функционал, связанный с этим, но потом было решено отказаться от этого, а последствия остались). ![Screenshot_1](https://user-images.githubusercontent.com/73797846/124609545-62cd5e00-de78-11eb-9276-1e503fd0fadb.png) Также я полностью отказался от всех собственных диалоговых окон, которые были созданы в силу моего незнания QFileDialog и других классов, унаследованных от QDialog. Теперь я выучил эти классы и перешёл на их использование. ![Screenshot_2](https://user-images.githubusercontent.com/73797846/124609850-aaec8080-de78-11eb-9152-76e171e2f54e.png) После открытия заметки теперь заметка выглядит так, как положено - квадратной. ![Screenshot_3](https://user-images.githubusercontent.com/73797846/124609952-c3f53180-de78-11eb-9e65-3baea4391119.png) Пространство над полем ввода теперь заполнено не QGroupBox, а QTabWidget. Имеются следующие виджеты: 1) Шрифт ![Screenshot_4](https://user-images.githubusercontent.com/73797846/124610221-fbfc7480-de78-11eb-8236-5ebaf6c7aaa7.png) 2) Формат ![Screenshot_5](https://user-images.githubusercontent.com/73797846/124610292-0f0f4480-de79-11eb-9d0b-04a72d6daf57.png) 3) Регистр ![Screenshot_6](https://user-images.githubusercontent.com/73797846/124610363-1b939d00-de79-11eb-9635-ae5e8b15d43d.png) 4) Абзац ![Screenshot_7](https://user-images.githubusercontent.com/73797846/124610413-277f5f00-de79-11eb-968a-fe5f086bc172.png) 5) Межстрочный интервал ![Screenshot_8](https://user-images.githubusercontent.com/73797846/124610474-382fd500-de79-11eb-80b3-24355c0c4349.png) 6) Поля ![Screenshot_9](https://user-images.githubusercontent.com/73797846/124610513-4120a680-de79-11eb-889e-6ec5b8818fbb.png) 7) Таблица ![Screenshot_10](https://user-images.githubusercontent.com/73797846/124610557-4aaa0e80-de79-11eb-8c78-bf0a3ea769d6.png) 8) Поиск ![Screenshot_12](https://user-images.githubusercontent.com/73797846/124610646-5c8bb180-de79-11eb-94d6-12e78a389816.png) 9) Вид редактора ![Screenshot_13](https://user-images.githubusercontent.com/73797846/124610792-77f6bc80-de79-11eb-8d92-ac245ab282e7.png) Кроме стандартного вида Заметки также есть вид Документа: ![Screenshot_11](https://user-images.githubusercontent.com/73797846/124610990-b12f2c80-de79-11eb-9f7a-1aac4fcd6a4e.png) , для которого сужено поля, чтобы вид был как текстового процессора (пока не реализовано для этого только разрыв страниц) и вид Кода: ![Screenshot_14](https://user-images.githubusercontent.com/73797846/124611050-c1470c00-de79-11eb-8df6-abf7ff153b66.png) , для которого сделано подсветку синтаксиса языка С++. Также я расширил и функционал всех меню. Меню файл теперь содержит следующий функционал: ![Screenshot_15](https://user-images.githubusercontent.com/73797846/124611404-171bb400-de7a-11eb-80c9-d0d7da0916e7.png) Меню экспорта: ![Screenshot_16](https://user-images.githubusercontent.com/73797846/124611484-28fd5700-de7a-11eb-8364-906bfd78dcf0.png) Меню правки: ![Screenshot_17](https://user-images.githubusercontent.com/73797846/124611526-331f5580-de7a-11eb-8ad9-6cc4fe8a2f88.png) Меню вставки: ![Screenshot_18](https://user-images.githubusercontent.com/73797846/124611573-3e728100-de7a-11eb-9ac4-3f19db221845.png) Меню переводов: ![Screenshot_19](https://user-images.githubusercontent.com/73797846/124611653-4e8a6080-de7a-11eb-88d3-02564a575548.png) Информативное меню: ![Screenshot_20](https://user-images.githubusercontent.com/73797846/124611692-59dd8c00-de7a-11eb-9585-d4783b769b15.png) Как видно, я добавил русский (Украина), украинский и японский языки. Например, теперь так выглядит интерфейс на японском: ![Screenshot_21](https://user-images.githubusercontent.com/73797846/124611845-842f4980-de7a-11eb-90b6-a484c852a114.png) И обновил окошко "Про программу": ![Screenshot_22](https://user-images.githubusercontent.com/73797846/124612063-b04aca80-de7a-11eb-884e-50e1ac9c8e03.png)
+## Building
+Программа написана в Qt, поэтому необходимо открывать проект через Qt и собирать программу через это IDE. После сборки размещаете неоюходимые библиотеки в той же директории, что и исполняемый файл. Программа собрана, можно использовать.
 
-Добавил вебхук на свой дискорд.
+<!--
+## CHANGELOG
+- [CHANGELOG](https://github.com/Nakama3942/template_rep/blob/main/CHANGELOG.md)
+
+## CONTRIBUTING
+- [CONTRIBUTING](https://github.com/Nakama3942/template_rep/blob/main/CONTRIBUTING.md)
+
+## CODE_OF_CONDUCT
+- [CODE_OF_CONDUCT](https://github.com/Nakama3942/template_rep/blob/main/CODE_OF_CONDUCT.md)
+
+## PULL_REQUEST_TEMPLATE
+- [PULL_REQUEST_TEMPLATE](https://github.com/Nakama3942/template_rep/blob/main/.github/PULL_REQUEST_TEMPLATE.md)
+-->
+
+## Authors
+<table>
+    <tr>
+        <td align="center"><a href="https://github.com/Nakama3942"><img src="https://avatars.githubusercontent.com/u/73797846?s=400&u=a9b7688ac521d739825d7003a5bd599aab74cb76&v=4" width="100px;" alt=""/><br /><sub><b>Kalynovsky Valentin</b></sub></a></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
