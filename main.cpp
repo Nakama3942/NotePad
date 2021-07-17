@@ -30,18 +30,46 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
 
-    //Устанавливаю перевод
-    QTranslator translator;
-    const QStringList uiLanguages = QLocale::system().uiLanguages();
-    for (const QString &locale : uiLanguages) {
-        const QString baseName = "NotePad_" + QLocale(locale).name();
-        if (translator.load(":/i18n/" + baseName)) {
-            a.installTranslator(&translator);
+    //Беру разрешение экрана
+    QScreen *screen = QApplication::screens().at(0);
+    QSize sizeScreen = screen->size();
+    int width = sizeScreen.width(), height = sizeScreen.height();
+
+    //Если экран >= 1280*1024 - открываю программу
+    //Иначе - вывожу ошибку и возвращаю 0
+    if(width >= 1280 && height >= 1024)
+    {
+        qDebug() << width << height;
+
+        //Устанавливаю перевод
+        QTranslator translator;
+        const QStringList uiLanguages = QLocale::system().uiLanguages();
+        for (const QString &locale : uiLanguages) {
+            const QString baseName = "NotePad_" + QLocale(locale).name();
+            if (translator.load(":/i18n/" + baseName)) {
+                a.installTranslator(&translator);
+                break;
+            }
+        }
+
+        SheetOfNotes w;
+        w.show();
+        return a.exec();
+    }
+    else
+    {
+        QMessageBox Crit;
+        Crit.setIcon(QMessageBox::Critical);
+        Crit.setText("Ошибка");
+        Crit.setInformativeText("Программа работает только с разрешением 1280*1024 и больше");
+        Crit.setStandardButtons(QMessageBox::Ok);
+        Crit.setDefaultButton(QMessageBox::Ok);
+        int clearer = Crit.exec();
+        switch (clearer)
+        {
+        case QMessageBox::Ok:
             break;
         }
     }
-
-    SheetOfNotes w;
-    w.show();
-    return a.exec();
+    return 0;
 }
